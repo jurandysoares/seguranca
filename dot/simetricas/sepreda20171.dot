@@ -1,0 +1,24 @@
+graph tsi6par20171 {
+    luan [label="Luan"];
+    juliana [label="Juliana"];
+    carlos [label="Carlos"];
+    matheus [label="Matheus"];
+    ednilson [label="Ednilson"];
+    hallessandro [label="Hallessandro"];
+    
+    luan -- juliana;
+    luan -- carlos;
+    luan -- matheus;
+    luan -- ednilson;
+    luan -- hallessandro;
+    juliana -- carlos;
+    juliana -- matheus;
+    juliana -- ednilson;
+    juliana -- hallessandro;
+    carlos -- matheus;
+    carlos -- ednilson;
+    carlos -- hallessandro;
+    matheus -- ednilson;
+    matheus -- hallessandro;
+    ednilson -- hallessandro;
+}
